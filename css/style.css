@@ -1,0 +1,21 @@
+.container {
+    display: flex;/* Activar flexbox */
+    justify-content: space-evenly; /*Alineación Horizantal*/
+    align-items: center; /*Alineación Vertical*/
+}
+.images {
+    display: flex; /*Activar Flexbox*/
+    justify-content: space-around; /*Alineación Horizontal*/
+    align-items: center; /*Alineación Vertical*/
+}
+.images img {
+    width: 200px; /*Ancho*/
+    height: 200px;/*Alto*/
+    object-fit: contain; /*Ajustar la Imagen*/
+}
+.text {
+    display:flex; /*Activar Flexbox*/
+    flex-direction: column; /*El eje principal ahora es el vertical*/
+    justify-content: space-around; /*Alineacion vertical*/
+    align-items: flex-start; /*Alineación horizontal*/
+}
